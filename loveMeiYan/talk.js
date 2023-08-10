@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我的乖宝宝，现在你是我丁金锁的第一夫人了，嘿嘿！！哥哥爱你哦(^_^)', function() {
+        modal('我的乖宝宝，现在你是我丁金锁的第一夫人了，嘿嘿！！哥哥爱你永远永远哦(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -14,7 +14,7 @@ $(function() {
 });
 
 function A() {
-    modal('哥哥多喜欢多爱我的宝贝老婆呀！反正是没办法用言语表达的热爱与喜欢。', B);
+    modal('哥哥多喜欢多爱我的宝贝老婆呀！反正是没办法用言语表达的热爱与喜欢。好吧，我就是语文差哈哈', B);
 }
 
 function B() {
