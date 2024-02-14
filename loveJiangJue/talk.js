@@ -34,7 +34,9 @@ function E() {
 }
 
 function F() {
-    modal('情人节快乐，我的珏珏宝宝', G);
+    modal('情人节快乐，我的珏珏宝宝', function() {
+        fireworks();
+    });
 }
 
 function G() {
